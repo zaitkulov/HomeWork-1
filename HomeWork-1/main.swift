@@ -68,4 +68,18 @@ var quot = b/c
 
 print ("\(sum) \(diff) \(prod) \(quot)")
 
+// 6. Задание: Точность чисел с плавающей запятой
+
+var number1 :Double = 25
+var number2 :Float = 25
+
+var DoubleNum :Double = number1 + 1.23456789
+var FloatNum :Float = number2 + 1.23456789
+
+print ("Double -", DoubleNum)
+print ("Float -", FloatNum)
+
+
+
+       
 
