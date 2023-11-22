@@ -56,3 +56,16 @@ let FatherName = "Rustemovich"
 
 print ("\(FirstName) \(LastName) \(FatherName)")
 
+// 5. Задание: Операции с числами
+
+let b :Double = 5
+let c :Double = 7
+
+var sum = b+c
+var diff = b-c
+var prod = b*c
+var quot = b/c
+
+print ("\(sum) \(diff) \(prod) \(quot)")
+
+
