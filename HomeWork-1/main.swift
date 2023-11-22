@@ -79,6 +79,16 @@ var FloatNum :Float = number2 + 1.23456789
 print ("Double -", DoubleNum)
 print ("Float -", FloatNum)
 
+// 7. Задание. Условные операторы и возраст
+
+var age = 15
+
+if age >= 18 {
+    print ("Совершеннолетний")
+} else {
+    print ("Еще нет 18")
+}
+
 
 
        
