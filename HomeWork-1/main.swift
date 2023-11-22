@@ -7,5 +7,23 @@
 
 import Foundation
 
-print("Hello, World!")
+// 1. Задание: Проверка булевых значений.
+// Провека обоих условий:
+
+var condition1 = true
+var condition2 = false
+
+if condition1 && condition2 {
+    print ("Оба условия выполняются")
+} else {
+    print ("Не все условия выполняются")
+}
+
+// Проверка хотябы одного условия
+
+if condition1 || condition2 {
+    print ("Хотя бы одно из условий выполняется")
+} else {
+    print ("Оба условия ложны")
+}
 
