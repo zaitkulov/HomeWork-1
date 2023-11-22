@@ -134,3 +134,22 @@ if number % 2 != 0 {
 } else {
     print ("Число четное")
 }
+
+// 12. Задание: Комбинации операторов.
+
+let isAdult = true
+let hasTicket = false
+
+if isAdult || hasTicket {
+    if isAdult && hasTicket {
+        print("Добро пожаловать!")
+    } else {
+        if isAdult {
+            print("Доступ запрещен!")
+        } else {
+            print("Доступ запрещен!")
+        }
+    }
+}
+
+
