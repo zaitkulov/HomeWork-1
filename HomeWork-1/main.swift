@@ -36,3 +36,14 @@ if a % 2 == 0 {
 } else {
     print ("Число нечетное")
 }
+
+// 3. Задание: Доступ на мероприятие.
+
+var adult = true
+var ticket = false
+
+if adult && ticket {
+    print ("Добро пожаловать")
+} else {
+    print ("Доступ запрещен")
+}
