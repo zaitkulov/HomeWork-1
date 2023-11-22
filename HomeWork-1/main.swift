@@ -47,3 +47,12 @@ if adult && ticket {
 } else {
     print ("Доступ запрещен")
 }
+
+// 4. Задание: Работа со строками.
+
+let FirstName = "Artyom"
+let LastName = "Zaitkulov"
+let FatherName = "Rustemovich"
+
+print ("\(FirstName) \(LastName) \(FatherName)")
+
